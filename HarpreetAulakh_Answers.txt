@@ -1,0 +1,26 @@
+Q1. 
+Syslog and rsyslog are two alternative syslog protocol implementations. Syslog is the initial syslog implementation, whereas rsyslog is a more recent version with more features. Both syslog and rsyslog allow programs to log messages to a centralized location, which can be beneficial for troubleshooting. However, because syslog and rsyslog have different feature sets, there may be some information overlap.
+Q2. 
+The five features of syslog-ng are as follows:
+ assistance with multiple log sources
+ Multiple log destinations are supported.
+versatile filtering capabilities
+ log rotation support - ability to run as a daemon
+Q3. 
+The following are the five ways syslog-ng improves on syslog/rsyslog:
+ assistance with multiple log sources
+ Multiple log destinations are supported.
+ versatile filtering capabilities
+ log rotation support - ability to run as a daemon
+Q4.
+ A log server could manage the connections to each process in three ways:
+- by utilizing a solitary connection for all processes
+- by the use of several connections, one for each process
+- by employing a hybrid of the two ways
+Q5. 
+A user can obtain meaningful information from a large number of logs in three ways:
+by manually going over the logs
+by utilizing a log management software
+ by employing a log analysis program
+Q6.
+ On a Linux platform, Gdb can be used to attach to a process and obtain thread information. This is important for debugging because it shows the status of all threads in the process.
